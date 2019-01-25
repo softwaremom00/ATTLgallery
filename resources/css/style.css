@@ -5,7 +5,7 @@ html{
   font-family: 'Diplomata' cursive;
   font-size: 16px;
 }
-body { padding-top: 70px; }
+body { padding-top: 62px; }
 
 
 nav li {
@@ -64,20 +64,28 @@ nav li a:hover{
 }
 
 .jumbotron{
+  margin-top: 0;
   background-position:center;
   background-size: cover;
   color: white;
 }
+.jumbotron-weave h1{
+  font-family: 'Monoton';
+  font-size: 7.1rem;
+  color: white;
+  text-align: center;
+  margin-top: 8rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
-.jumbotron h1{
-  /*font-family: 'Monoton'; */
+}
+.jumbotron-spin h1, .jumbotron-dye h1, .jumbotron-felt h1{
+  /*font-family: 'Monoton'; margin-top: 11.85rem;*/
   font-family: 'Diplomata';  /* Monoton was other choice*/
   padding-bottom: 2rem;  /* only need this if using Diplomata */
   font-size: 7.1rem;
   color: white;
   text-align: center;
-  margin-top: 11.85rem;
-
+  margin-top: 8rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
